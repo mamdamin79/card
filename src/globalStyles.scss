@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+$backgroundColor: #fceeb5;
+$fontFamily: "Abel";
+body{
+    font-family: $fontFamily;
+    background-color:$backgroundColor
+}
