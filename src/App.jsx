@@ -1,8 +1,9 @@
-function App() {
+import Card from "./components/Card/Card"
 
+function App() {
   return (
     <div className="App">
-      here is app
+      <Card/>
     </div>
   )
 }

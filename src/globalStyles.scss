@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Abel');
 $backgroundColor: #fceeb5;
 $fontFamily: "Abel";
+
 body{
     font-family: $fontFamily;
-    background-color:$backgroundColor
+    background-color:$backgroundColor;
+    width: 100%;
+    height: 100vh;
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }

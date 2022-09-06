@@ -1,0 +1,111 @@
+$backgroundColor: #fefefe;
+$headerBackgroundColor: #ed766c;
+.container{
+    width: 500px;
+    height: 220px;
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    background-color:$backgroundColor;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    padding: 6px;
+    display: flex;
+    justify-content: flex-end;
+    overflow:hidden;
+    cursor: pointer;
+        .mamad{
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 0 5px;
+        }
+   
+
+        h2,h5{
+            text-align: center;
+            line-height: 22px;
+
+        }
+        p{
+            text-align: right;
+        }
+    }
+    header {
+        background-color:$headerBackgroundColor;
+        width:150px;
+        transition : all 0.3s ease-in-out;
+        position:absolute;
+        left:0;
+        top:0;
+        height: 232px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items:center;
+        p{
+            padding: 3px 8px;
+            background-color:rgb(176, 109, 109);
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            color: #fefefe;
+}
+        
+        img{
+            width: 90px;
+            height: 90px;
+            object-fit: cover;
+            border-radius:50%;
+            -webkit-border-radius:50%;
+            -moz-border-radius:50%;
+            -ms-border-radius:50%;
+            -o-border-radius:50%;
+}
+    }
+
+.container:hover .cover {
+    width: 350px;
+    background-color:$headerBackgroundColor;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    padding: 6px;
+
+}
+.cover {
+    background-color:$headerBackgroundColor;
+    position: absolute;
+    left: 150px;
+    top: 0;
+    bottom: 0;
+    width:0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid rgb(250, 175, 175);
+    color: #fefefe;
+
+    div{
+        display: flex;
+        justify-content:space-between;
+    }
+    footer{
+        display: flex;
+        justify-content:space-between;
+    }
+}
+
+.iconsContainer{
+    p{
+        display: block;
+    }
+}
